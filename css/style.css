@@ -122,9 +122,10 @@ p{
  
 #block-one img {
     
-     width: 6%;
-    height: 8%;
-	margin: 15 120 10px;
+     width: 35%;
+    height: 60%;
+	 
+	 
 }
 a{
 	   text-decoration: none;
@@ -134,7 +135,7 @@ a{
 	font-size:20;
 	color: #2f4993;
 	font-family: "Roboto";
-	margin: -55 220 10px;
+	margin: -60 110 10px;
  
 	
 }
@@ -142,21 +143,65 @@ a{
 	font-size:15;
 	 color: black;
 	font-family: "Roboto";
-	margin: -10 220 10px;
+	margin: -10 110 10px;
+	-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+display: block;
+width: 100%;
  
 	
 }
+#block-one{
+ 	box-sizing: border-box;
+    width: 350px;
+    height: 150px;
+    padding: 30px;    
+		margin: 15 120 10px;
+		box-shadow: 0 0 35px rgba(0,0,0,0.1);
+    
+}
+
+#block-two{
+ 	box-sizing: border-box;
+    width: 350px;
+    height: 150px;
+    padding: 30px;    
+   
+		margin:-162 500 10px;
+		box-shadow: 0 0 35px rgba(0,0,0,0.1);
+}
+#block-four{
+	 
+	box-sizing: border-box;
+    width: 350px;
+    height: 150px;
+    padding: 30px;    
+     box-shadow: 0 0 35px rgba(0,0,0,0.1);
+		margin: 50 120 10px;
+
+}
+#block-three{
+ 	box-sizing: border-box;
+    width: 350px;
+    height: 150px;
+    padding: 30px;    
+   box-shadow: 0 0 35px rgba(0,0,0,0.1);
+		margin:-162 900 10px;
+
+}
 #block-two img {
     
-     width: 6%;
-    height: 8%;
-	margin:-100 550 10px;
+     width: 35%;
+    height: 60%;
+	 
 }
 #block-two .pa{
 	font-size:20;
 	color: #2f4993;
 	font-family: "Roboto";
-	margin: -100 650 10px;
+	margin: -61 110 0px;
 	 
  
 	
@@ -165,21 +210,28 @@ a{
 	font-size:15;
 	 color: black;
 	font-family: "Roboto";
-	margin: -5 660 10px;
+	margin: 0 110 5px;
+	-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+display: block;
+width: 100%;
+ 
 	}
 	
 	
 	#block-three img {
     
-     width: 6%;
-    height: 8%;
-	margin:-90 850 10px;
+     width: 35%;
+    height: 60%;
+	 
 }
 #block-three .pa{
 	font-size:20;
 	color: #2f4993;
 	font-family: "Roboto";
-	margin: -90 950 10px;
+	margin: -61 110 5px;
  
  
 	
@@ -188,22 +240,28 @@ a{
 	font-size:15;
 	 color: black;
 	font-family: "Roboto";
-	margin: -5 950 10px;
+	margin: 0 110 10px;
+	-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+display: block;
+width: 100%
 	 
  
 	
 }
 #block-four img {
     
-     width: 6%;
-    height: 8%;
-	margin: 50 120 10px;
+     width: 35%;
+    height: 60%;
+	 
 }
 #block-four .pa{
 	font-size:20;
 	color: #2f4993;
 	font-family: "Roboto";
-	margin: -70 220 10px;
+	margin: -61 110 5px;
  
  
 	
@@ -212,7 +270,13 @@ a{
 	font-size:15;
 	 color: black;
 	font-family: "Roboto";
-	margin: 0 220 10px;
+	margin: 0 110 10px;
+	-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+display: block;
+width: 100%
 	 
  
 	
@@ -221,7 +285,7 @@ a{
 	   text-decoration: none;
 	   font-size:20;
 	   color: #2f4a91;
-	  margin: 0 460 10px;
+	  margin: 0 230 10px;
 }
 .more:hover{
 	 
@@ -231,7 +295,7 @@ a{
 	   text-decoration: none;
 	   font-size:20;
 	   color: #2f4a91;
-	  margin:-70 770 5px;
+	  margin:0 230 10px;
 }
 .more-two:hover{
 	 
@@ -241,7 +305,7 @@ a{
 	   text-decoration: none;
 	   font-size:20;
 	   color: #2f4a91;
-	 margin:-70 1100 5px;
+	 margin:0 230 5px;
 }
 .more-three:hover{
 	 
@@ -251,7 +315,7 @@ a{
 	   text-decoration: none;
 	   font-size:20;
 	   color: #2f4a91;
-	margin: 0 460 10px;
+	margin: 0 230 10px;
 }
 .more-four:hover{
 	 
