@@ -286,6 +286,12 @@ width: 100%
 	   font-size:20;
 	   color: #2f4a91;
 	  margin: 0 230 10px;
+	  -webkit-box-orient: vertical;
+	  overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+display: block;
+width: 100%;
 }
 .more:hover{
 	 
@@ -296,6 +302,12 @@ width: 100%
 	   font-size:20;
 	   color: #2f4a91;
 	  margin:0 230 10px;
+	  -webkit-box-orient: vertical;
+	  overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+display: block;
+width: 100%;
 }
 .more-two:hover{
 	 
@@ -306,6 +318,12 @@ width: 100%
 	   font-size:20;
 	   color: #2f4a91;
 	 margin:0 230 5px;
+	 -webkit-box-orient: vertical;
+	  overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+display: block;
+width: 100%;
 }
 .more-three:hover{
 	 
@@ -316,8 +334,50 @@ width: 100%
 	   font-size:20;
 	   color: #2f4a91;
 	margin: 0 230 10px;
+	-webkit-box-orient: vertical;
+	  overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+display: block;
+width: 100%;
 }
 .more-four:hover{
 	 
 	color: #ff9933; 
 }
+ 
+ 
+#palestine ul ,#lebanon ul,#egypt ul ,#jordan ul{
+	
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0;  
+    overflow: hidden;  
+}
+#palestine li , #lebanon li ,#egypt li ,#jordan li{
+ 
+   float: left;
+}
+#palestine li a ,#lebanon li a , #egypt li a ,#jordan li a{
+    display: inline-block;
+    padding: 17px 15px;
+	font-size: 14px;
+	color: #333;
+    text-decoration: none;
+border-bottom: 2px solid #fff;
+}
+#palestine .container ,#lebanon .container, #egypt .container ,#jordan .conatiner{
+	 padding-top:20;
+	 border-bottom:1px solid #eee;
+}
+#palestine p , #lebanon p , #egypt p,#jordan p{
+	margin-top: 0;
+	margin-bottom:30;
+}
+#palestine img ,#lebanon img , #egypt img,#jordan img{
+	width :82%;
+	margin:-0.4 110 0px;
+}
+ #palestine .ss:link , #lebanon .ss:link ,#jordan .ss:link ,#egypt .ss:link{color: #337ab7 ;}
+ #palestine .ss:hover , #lebanon .ss:hover ,#jordan .ss:hover ,#egypt .ss:hover{	color: #ff9933; }
+
