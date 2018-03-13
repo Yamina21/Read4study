@@ -1,3 +1,7 @@
+@import url("grid.css");
+
+
+
 body{margin:0;
 font-family: "Roboto-Light";}
 .container {
@@ -8,7 +12,7 @@ font-family: "Roboto-Light";}
     box-sizing: border-box;
 }
 .banner {
-	
+	margin-top:-28;
     width: 100%;
     height: 365px;
     background: linear-gradient(#2d4368, #2d4268, #385066, #415c63, #4b6a61, #537256, #557553, #58784e, #5a7a4b, #5c7c47);
@@ -179,7 +183,7 @@ width: 100%;
     height: 150px;
     padding: 30px;    
      box-shadow: 0 0 35px rgba(0,0,0,0.1);
-		margin: 50 120 10px;
+		margin: 50 120 40px;
 
 }
 #block-three{
@@ -381,3 +385,338 @@ border-bottom: 2px solid #fff;
  #palestine .ss:link , #lebanon .ss:link ,#jordan .ss:link ,#egypt .ss:link{color: #337ab7 ;}
  #palestine .ss:hover , #lebanon .ss:hover ,#jordan .ss:hover ,#egypt .ss:hover{	color: #ff9933; }
 
+
+ 
+ 
+ 
+  
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.relative {
+    position: relative;
+}
+
+
+footer ul a,
+.light {
+    font-weight: 300;
+}
+
+footer ul a,
+.white {
+    color: #fff;
+}
+
+/*                     Styling nav                              */
+
+nav.navbar {
+    height: 71px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 1px 2px 3px rgba(0, 0, 0, 0.34);
+
+}
+
+nav .navbar-wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.navbar-brand {
+    float: left;
+}
+
+.navbar-brand a#logo {
+    display: inline-block;
+    width: 205px;
+    height: 60px;
+    background: center url("../images/logo.png") no-repeat;
+    background-size: 100%;
+    margin-top: 6px;
+}
+
+
+.navbar-options {
+    float: right;
+}
+
+.navbar-collapse {
+    float: left;
+}
+
+ul.navbar-nav {
+    margin: 25px 0 14px 0;
+
+}
+
+ul li.navbar-item {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 15px;
+}
+
+.language {
+    float: right;
+    display: inline-block;
+    padding-left: 30px;
+    margin: 25px 0 0 15px;
+    border-left: 1px solid #EBEBEB;
+}
+
+.navbar a {
+    color: #2f4a91;
+    font-weight: 900;
+    line-height: 20px;
+}
+
+.navbar a:hover {
+    color: #edb730;
+}
+
+/*                 navbar dropdown menu                   */
+
+ul.dropdown {
+    max-width: 0;
+    opacity: 0;
+    position: absolute;
+    background-color: #fff;
+    width: 200px;
+    padding: 8px;
+    top: 22px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    box-shadow: rgba(14, 5, 5, 0.38) 1px 2px 2px 0px;
+    transtion: all 0.1s;
+}
+
+ul.dropdown li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+ul.dropdown li:last-child {
+    border-bottom: none;
+}
+
+li.navbar-item:hover > ul.dropdown {
+    max-width: 200px;
+    opacity: 1;
+}
+
+
+
+
+
+/*                             foooter                           */
+
+footer {
+    background-color: #2F4A93;
+
+}
+
+footer div.big-title {
+    padding: 50px 0 40px 0;
+    position: relative;
+    text-align: center;
+    font-size: 34px;
+}
+
+footer div.big-title::after {
+    content: "";
+    position: absolute;
+    width: 55px;
+    background: #edb730;
+    height: 3px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 13px;
+
+}
+
+footer div.container {
+    max-width: 1170px;
+    margin: 6px auto;
+}
+
+footer div.footer-title {
+    font-size: 30px;
+    margin: 40px 0 20px;
+}
+
+
+footer ul  li {
+    margin-bottom: 5px;
+	 
+}
+
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer div.form-group {
+    padding-bottom: 5px;
+ }
+
+footer .form-control {
+    background-color: rgba(0, 0, 0, 0);
+    outline: 0;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 7px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+footer .form-control::placeholder {
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #BDBDBD;
+    font-weight: 400;
+}
+
+footer .form-control:focus {
+    border-color: #fff;
+    box-shadow: none;
+}
+
+footer textarea.form-control {
+    resize: none;
+    height: 77px;
+}
+
+
+footer .btn {
+    width: 98px;
+    color: #fff;
+    padding: 8px 30px 7px 30px;
+    font-weight: bold;
+    background-color: #f0ad4e;
+
+    text-transform: uppercase;
+    transition: all 0.2s;
+}
+
+footer .btn:hover {
+    color: #f0ad4e;
+    border-color: #d58512;
+    background-color: #fefefe;
+
+}
+
+footer .btn-container {
+    text-align: right;
+}
+
+footer .social-links {
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    font-size: 18px;
+}
+
+footer .social-links li {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+
+}
+
+footer .social-links a {
+    border: 3px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 4px 8px;
+    width: 100%;
+    height: 100%;
+
+}
+
+footer .social-links li:first-child a:first-child {
+    padding: 4px 12px;
+}
+
+
+footer .seprator {
+    margin: 20px auto 20px;
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+}
+
+footer .copyright {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+
+
+}
+
+footer  .powered-by {
+    font-size: 16px;
+    float: right;
+    padding-bottom: 10px;
+    float: right;
+    top: -2px;
+}
+
+footer .powered-by span {
+    position: relative;
+    top: -6px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #f0ad4e;
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+    footer div.container {
+        margin-left: 20px;
+    }
+    footer .social-links {
+        bottom: 100px;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:1074px) {
+    header .navbar-collapse {
+        max-width: 0;
+        opacity: 0;
+    }
+    .language{
+        padding-left:5px;
+    }
+    footer .big-title {
+        text-align: center;
+        margin: 6px auto;
+    }
+
+}
+
+
+@media screen and (max-width:400px) {
+    header .navbar-brand{
+width: 200px;}
